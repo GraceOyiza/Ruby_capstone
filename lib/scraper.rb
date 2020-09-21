@@ -3,7 +3,7 @@ require 'nokogiri'
 require 'byebug'
 
 class Electronic
-  attr_reader :count, :titles
+  attr_reader :url, :unparsed_page, :parsed_page, :count, :titles
 
   def initialize
     @url = 'https://www.ebay.com/b/Samsung/bn_21834655'
