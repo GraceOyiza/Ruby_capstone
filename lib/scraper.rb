@@ -10,4 +10,11 @@ class Electronic
         @parsed_page =  Nokogiri::HTML(@unparsed_page)
       end
 
+      def scrape
+
+        titles = parsed_page.css('h3.s-item__title')
+        prices = parsed_page.css('span.s-item__price')
+
+      end
+
 end
