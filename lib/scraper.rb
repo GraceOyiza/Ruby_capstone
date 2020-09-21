@@ -15,9 +15,11 @@ class Electronic
         titles = parsed_page.css('h3.s-item__title')
         prices = parsed_page.css('span.s-item__price')
 
-  
+        puts "#{titles.length} items found" 
+
         titles.each_with_index do |item, index|
             puts "#{item.text} -  #{prices[index].text}"
+        end
 
       end
 
