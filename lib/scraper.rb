@@ -3,7 +3,8 @@ require 'nokogiri'
 require 'byebug'
 
 class Electronic
-
+    attr_reader :url, :unparsed_page, :parsed_page
+    
     def initialize
         @url = 'https://www.ebay.com/b/Samsung/bn_21834655'
         @unparsed_page = HTTParty.get(@url)
