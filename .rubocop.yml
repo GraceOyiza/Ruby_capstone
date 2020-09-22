@@ -49,4 +49,6 @@ Style/HashTransformKeys:
 Style/HashTransformValues:
   Enabled: false
 Style/BlockComments:
-   Enabled: false
+  Enabled: false
+Style/RedundantParentheses:
+  Enabled: false
