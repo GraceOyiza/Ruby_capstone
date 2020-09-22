@@ -17,6 +17,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bundler
   byebug
   httparty
   nokogiri
