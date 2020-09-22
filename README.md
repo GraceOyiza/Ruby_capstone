@@ -22,7 +22,7 @@
 
 - $ in the terminal run ./main.rb to see the results.
 
-$ in terminal run rspec to see the tests result.
+- $ in terminal run rspec to see the tests result.
 
 Authors
 
