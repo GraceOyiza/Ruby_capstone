@@ -8,12 +8,6 @@
 - Ruby
 - Nokogiri
 
-<!-- ## Live Demo
-[Live Demo Link](https://repl.it/@MahmoudBakr23/Web-Scraper#main.rb) -->
-
-<!-- To Run On Live Demo
-Press Run -->
-
 ## To Run Locally
 
 - To get a local copy of the repository please run the following commands on your terminal:
@@ -43,7 +37,6 @@ Authors
 - Email: graceoyiza13@gmail.com
 
 ### Contributing
-
 Contributions, issues and feature requests are welcome!
 
 ### Show your support
@@ -53,5 +46,4 @@ Give a ⭐️ if you like this project!
 - Microverse
 
 ### License
-
 - This project is MIT licensed.
