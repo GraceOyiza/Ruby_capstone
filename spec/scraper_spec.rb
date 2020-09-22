@@ -1,7 +1,7 @@
 require_relative '../lib/scraper.rb'
 
-describe Electronic do
-  let(:sample) { (Electronic.new) }
+describe Phone do
+  let(:sample) { (Phone.new) }
 
   it 'should return the length of titles when scraped' do
     sample.scrape

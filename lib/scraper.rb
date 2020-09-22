@@ -2,7 +2,7 @@ require 'httparty'
 require 'nokogiri'
 require 'byebug'
 
-class Electronic
+class Phone
   attr_reader :url, :unparsed_page, :parsed_page, :count, :titles
 
   def initialize

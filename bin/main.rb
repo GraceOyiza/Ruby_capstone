@@ -2,5 +2,5 @@
 
 require_relative '../lib/scraper.rb'
 
-electronic = Electronic.new
+electronic = Phone.new
 electronic.scrape
